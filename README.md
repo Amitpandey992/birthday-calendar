@@ -1,30 +1,49 @@
-# React + TypeScript + Vite
+# Birthday Calendar App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based Birthday Calendar App that allows users to view notable birthdays for a selected date and add/remove their favorite birthdays. The app persists the favorite birthdays in local storage so they are available even after a page refresh.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- View birthdays for a selected date.
+- Add birthdays to a favorites list.
+- Remove birthdays from the favorites list.
+- Persist favorite birthdays in local storage.
+- Prevent duplicate entries in the favorites list.
 
-## Expanding the ESLint configuration
+## Installation
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+1. **Clone the repository:**
 
-- Configure the top-level `parserOptions` property like this:
+   ```sh
+   git clone https://github.com/yourusername/birthday-calendar-app.git
+   cd birthday-calendar-app
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+##Install dependencies   
+npm install
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+##Set up environment variables:
+-Create a .env file in the root of the project and add your Wikimedia API access token:
+VITE_APP_ACCESS_TOKEN=your_wikimedia_api_access_token
+
+##Start the development server:
+npm run dev
+
+##Components
+##App Component
+The main component that handles state management and rendering of other components.
+
+##BirthdayList Component
+Fetches and displays a list of notable birthdays for the selected date.
+
+##FavoriteList Component
+Displays the list of favorite birthdays, ensuring no duplicates.
+
+##Local Storage
+The app uses local storage to preserve favorite birthdays. The data is stored under the key favoriteBdays.
+
+
+##Contributing
+Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.
+
+##Contact
+For any questions or feedback, please get in touch with me at pandeyamit9340@gmail.com
