@@ -22,7 +22,9 @@ This is a React-based Birthday Calendar App that allows users to view notable bi
 npm install
 
 ## Set up environment variables:
--Create a .env file in the root of the project and add your Wikimedia API access token:
+**Create a .env file in the root of the project and add your Wikimedia API access token:**
+
+```sh
 VITE_APP_ACCESS_TOKEN=your_wikimedia_api_access_token
 
 ## Start the development server:
