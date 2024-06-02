@@ -18,20 +18,21 @@ This is a React-based Birthday Calendar App that allows users to view notable bi
    git clone https://github.com/yourusername/birthday-calendar-app.git
    cd birthday-calendar-app
 
-## Install dependencies   
+2. **Install dependencies:**   
 npm install
 
-## Set up environment variables:
+3. **Set up environment variables:**
 **Create a .env file in the root of the project and add your Wikimedia API access token:**
 
-```sh
-VITE_APP_ACCESS_TOKEN=your_wikimedia_api_access_token
+   ```sh
+   VITE_APP_ACCESS_TOKEN=your_wikimedia_api_access_token
 
-## Start the development server:
--npm run dev
+4. **Start the development server:**
+    ```sh
+    npm run dev
 
-## Components
-### App Component
+5. **Components**
+## App Component
 -The main component that handles state management and rendering of other components.
 
 ## BirthdayList Component
@@ -49,3 +50,6 @@ VITE_APP_ACCESS_TOKEN=your_wikimedia_api_access_token
 
 ##Contact
 -For any questions or feedback, please get in touch with me at pandeyamit9340@gmail.com
+
+
+
