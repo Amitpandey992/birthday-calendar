@@ -18,32 +18,32 @@ This is a React-based Birthday Calendar App that allows users to view notable bi
    git clone https://github.com/yourusername/birthday-calendar-app.git
    cd birthday-calendar-app
 
-##Install dependencies   
+## Install dependencies   
 npm install
 
-##Set up environment variables:
+## Set up environment variables:
 -Create a .env file in the root of the project and add your Wikimedia API access token:
 VITE_APP_ACCESS_TOKEN=your_wikimedia_api_access_token
 
-##Start the development server:
-npm run dev
+## Start the development server:
+-npm run dev
 
-##Components
-##App Component
-The main component that handles state management and rendering of other components.
+## Components
+### App Component
+-The main component that handles state management and rendering of other components.
 
-##BirthdayList Component
-Fetches and displays a list of notable birthdays for the selected date.
+## BirthdayList Component
+-Fetches and displays a list of notable birthdays for the selected date.
 
-##FavoriteList Component
-Displays the list of favorite birthdays, ensuring no duplicates.
+## FavoriteList Component
+-Displays the list of favorite birthdays, ensuring no duplicates.
 
-##Local Storage
-The app uses local storage to preserve favorite birthdays. The data is stored under the key favoriteBdays.
+## Local Storage
+-The app uses local storage to preserve favorite birthdays. The data is stored under the key favoriteBdays.
 
 
-##Contributing
-Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.
+## Contributing
+-Contributions are welcome! Please open an issue or submit a pull request for any changes or enhancements.
 
 ##Contact
-For any questions or feedback, please get in touch with me at pandeyamit9340@gmail.com
+-For any questions or feedback, please get in touch with me at pandeyamit9340@gmail.com
